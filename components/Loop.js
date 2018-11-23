@@ -1,7 +1,7 @@
 var React = require("react");
 var ReactDOM = require("react-dom");
 
-const list = ["some", "real", "cool", "words"];
+const list = ["some", "real", "cool", "words", "to", "loop"];
 
 class Loop extends React.Component {
   constructor(props) {
