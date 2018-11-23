@@ -37,7 +37,7 @@ class Loop extends React.Component {
   }
 
   render() {
-    return <h1>I'm the loop {this.state.displayItem} </h1>;
+    return <h1>The loop {this.state.displayItem} </h1>;
   }
 }
 
