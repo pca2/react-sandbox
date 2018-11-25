@@ -3,7 +3,7 @@ var ReactDOM = require("react-dom");
 class Submit extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { foo: true, inputText: "", displayText: "" };
+    this.state = { inputText: "", displayText: "" };
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
   }
